@@ -7,6 +7,6 @@ api = Api(app)
 
 #Rutas
 api.add_resource(ActividadesController, "/actividades")
-
+print("soy una prueba")
 if __name__ == "__main__":
     app.run(debug=True)
